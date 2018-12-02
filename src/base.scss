@@ -1,0 +1,50 @@
+$navColor: #f98537;
+
+//定义一个变量和一个mixin
+$baseFontSize: 32;
+@mixin px2rem($name, $px){
+    #{$name}: $px / $baseFontSize * 1rem;
+}
+
+.hotel-wrap{
+	padding: 0;
+	@include px2rem(padding-right,17);
+	@include px2rem(padding-left, 17);
+	@include px2rem(margin-bottom,8.5);
+	background-color: #fff;
+}
+/* 使用时
+@include px2rem(height ,240);
+ */
+/* 
+//使用示例：
+.container {
+    .px2rem(height, 240);
+}
+
+//less翻译结果：
+.container {
+    height: 3.2rem;
+} */
+
+@mixin clearfix() {
+	&::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+@mixin arrow($w: 10px, $c: #000, $dir: top) {
+	// 兼容行内元素，和块元素
+	font-size: 0;
+	width: 0;
+	border: $w solid transparent;
+	border-#{$dir}-color: $c;
+}
+
+body {
+font-family: 'PingFangSC-Light',Arial,Helvetica,sans-serif,"Hiragino Sans GB";
+	
+}
+

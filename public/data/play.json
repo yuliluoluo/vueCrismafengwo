@@ -1,0 +1,50 @@
+{
+	"firstIconList": [
+					{ "pic": "icon1.png", "text": "景点门票"},
+					{ "pic": "icon2.png", "text": "一日游"},
+					{ "pic": "icon3.png", "text": "酒店套餐"},
+					{ "pic": "icon4.png", "text": "WiFi"},
+					{ "pic": "icon5.png", "text": "演出展览"},
+					{ "pic": "icon6.png", "text": "接送机"},
+					{ "pic": "icon7.png", "text": "电话卡"},
+					{ "pic": "icon8.png", "text": "交通卡"}
+				],
+
+	"tabList": [
+					{"title": "热门", "show": true, "text": "热门部分", "className":"show"},
+					{"title": "东南亚", "show": false, "text": "东南亚部分", "className":""},
+					{"title": "欧美澳", "show": false, "text": "欧美澳部分", "className":""},
+					{"title": "国内", "show": false, "text": "国内部分", "className":""}
+				],
+
+	"itemList": [
+				{"url": "item-list1.jpeg", "title": "十一游惊喜   沙巴亚庇拼车接机/送机服务 活动链接 单拍无效（搭配行程低至1元接送+中文对接服务+按时接机+正规旅游用车", "price": "￥1"},
+				{"url": "item-list2.jpeg", "title": "心动新加坡5日亲子定制游（App智能导航+新加坡小印度+东南亚首个环球影城+俯瞰新加坡飞行者摩天轮", "price": "￥5999"},
+				{"url": "item-list3.jpeg", "title": "无锡鼋头渚景点门票（太湖仙岛）", "price": "￥85"},
+				{"url": "item-list4.png", "title": "新加坡Ezlink易通卡/交通卡/一卡通（免费送购物优惠券+下单减3元+内含7新币+多种图案随机发 包邮）", "price": "￥95"},
+				{"url": "item-list5.jpeg", "title": "新加坡S.E.A海洋馆 电子换票证（含海事馆  不含台风剧场）", "price": "￥179"}
+	],
+
+	"seasonNavList": [
+				{"city": "普吉岛", "show": true, "className": "show"},
+				{"city": "日本", "show": false, "className": ""},
+				{"city": "三亚", "show": false, "className": ""},
+				{"city": "丽江", "show": false, "className": ""},
+				{"city": "台湾", "show": false, "className": ""},
+				{"city": "香港", "show": false, "className": ""},
+				{"city": "哈尔滨", "show": false, "className": ""},
+				{"city": "首尔", "show": false, "className": ""}
+	],
+
+	"season1_list": [
+				{"url": "season1-list1.jpeg", "title": "普吉全岛送机 全岛酒店到机场（24小时专车/包车送机+中文客服+可下当天急单）", "price": "99", "sale": "495"},
+				{"url": "season1-list2.jpeg", "title": "当地出发 | 皇帝岛珊瑚岛巨型旅拍帆船一日游 我是社会人（赠旅拍照片+海鲜自助餐+免费接送+两位专属中文导游）", "price": "299", "sale": "566"}
+	],
+
+	"season2_list": [
+				{"url": "season2-list1.jpeg", "title": "即定即用 大阪 日本环球影城 大阪环球影城大门票+快速券 可订当天+极速出票  可选项目超全（电子票+无需打印+扫码入园）", "price": "479", "sale": "495"},
+				{"url": "season2-list2.jpeg", "title": "国庆大促 日本环球影城 大阪环球影城官方大门票+快速票套票 领取海量优惠劵 版本齐全 更新至11月（极速出票有保障+正品保证入园+手机扫码入园）", "price": "497", "sale": "566"}
+	]
+
+	
+}
